@@ -1,0 +1,58 @@
+{
+    "U1": [
+        {
+            "profile": "P2",
+            "startDate": "01-01-2020",
+            "endDate": "29-02-2020"
+        },
+        {
+            "profile": "P1",
+            "startDate": "01-03-2020",
+            "endDate": "31-05-2020"
+        },
+        {
+            "profile": "P1",
+            "startDate": "03-06-2020",
+            "endDate": "01-09-2020"
+        }
+    ],
+    "U0": [
+        {
+            "profile": "P2",
+            "startDate": "20-12-2019",
+            "endDate": "31-12-2019"
+        },
+        {
+            "profile": "P3",
+            "startDate": "01-01-2020",
+            "endDate": "15-01-2020"
+        },
+        {
+            "profile": "P1",
+            "startDate": "16-01-2020",
+            "endDate": "31-01-2020"
+        },
+        {
+            "profile": "P4",
+            "startDate": "01-02-2020",
+            "endDate": "02-02-2020"
+        },
+        {
+            "profile": "P2",
+            "startDate": "25-12-2020",
+            "endDate": "31-12-2020"
+        }
+    ],
+    "U9": [
+        {
+            "profile": "P2",
+            "startDate": "01-01-2020",
+            "endDate": "01-04-2020"
+        },
+        {
+            "profile": "P1",
+            "startDate": "02-04-2020",
+            "endDate": "01-09-2020"
+        }
+    ]
+}

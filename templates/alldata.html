@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<br><br><br><br>
+
+
+<div class="container mx-auto" style="border:2px solid" class="form-horizontal" class="rounded" style = "width : 50%">
+   <h2 align="center">USER PROFILE DETAILS</h2>
+      <table class="table table-striped" >
+          <thead align="center" >
+
+    <tr>
+      <th  scope="col">User</th>
+      <th  scope="col">Profile</th>
+      <th scope="col">Start Date</th>
+      <th scope="col">End date</th>
+    </tr>
+  </thead>
+          <tbody>
+          {% for k,value in result.items() %}
+          <tr scope="row" class="success">
+<!--              <td scope="row">{{k}}</td>-->
+                 {% for i in value %}
+
+            <tr scope="row">
+                <td>{{k}}</td>
+               {% for key, value in i.items() %}
+                  <td> {{ value }} </td>
+               {% endfor %}
+
+            </tr>
+                      <tr></tr>
+
+         {% endfor %}
+
+           {% endfor %}
+          </tbody>
+      </table>
+   </div>
+
+
+</body>
+</html>

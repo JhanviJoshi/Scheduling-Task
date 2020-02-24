@@ -1,0 +1,26 @@
+{
+    "U1": [
+        {
+            "profile": "P2",
+            "startDate": "01-01-2020",
+            "endDate": "29-02-2020"
+        },
+        {
+            "profile": "P1",
+            "startDate": "01-03-2020",
+            "endDate": "31-05-2020"
+        },
+        {
+            "profile": "P1",
+            "startDate": "03-06-2020",
+            "endDate": "01-09-2020"
+        }
+    ],
+    "u0": [
+        {
+            "profile": "p",
+            "startDate": "01-09-2020",
+            "endDate": "01-09-2020"
+        }
+    ]
+}
